@@ -1,0 +1,15 @@
+{
+  "name": "ocamolize",
+  "version": "1.0.0",
+  "description": "Creation of head cam video for orienteering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ORIENTEERING",
+    "HEADCAM"
+  ],
+  "author": "Stanislav Kunt",
+  "license": "ISC"
+}
