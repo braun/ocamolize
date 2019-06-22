@@ -1,20 +1,369 @@
 {
-    "map":
+    "title":"Mistrovství VČO štafet 2019 H135/11 prvni usek",
+    "chapterOffset":10,
+    "map3":
     {
-        "file":"mapa_vysoke_H45D.jpg",
+        "file":"HK_stafety_135.1.png",
         "georef":
         [
             {
-                "lat":50.6887625,
-                "lon":15.3949411,
-                "x":456,
-                "y":474
+                "lat":50.19446, 
+                "lon": 15.84877,
+                "x":0,
+                "y":0
             },
             {
-                "lat":50.6838819,
-                "lon":15.4095269,
-                "x":3043,
-                "y":1545
+                "lat":50.17737,  
+                "lon":15.88176,
+                "x":2946,
+                "y":2034
+            }
+        ]
+    },
+    "map":
+    {
+        "file":"HK_stafety_135.1.png",
+        "georef":
+        [
+            {
+                "lat":50.1912600, 
+                "lon":15.8568297,
+                "x":768,
+                "y":313
+            },
+            {
+                "lat":50.1828381, 
+                "lon":15.8747683,
+                "x":2277,
+                "y":1428
+            }
+        ]
+    },
+    "plotLength":[51,36],
+    "plot":
+    [
+        {
+            "event":"title",
+            "videoTime": [0,0],
+            "videoTimeEnd": [0,10],
+            "comment": "Mistrovství VČO štafet 2019"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":1290,
+            "y":454,
+            "videoTime": [0,54],
+            "chapter": "start"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":1515,
+            "y":420,
+            "videoTime": [1,39]
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":1806,
+            "y":567,
+            "videoTime": [3,50],
+            "chapter": "1. kontrola"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":1872,
+            "y":831,
+            "videoTime": [6,3],
+            "chapter": "2. kontrola"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":1594,
+            "y":1086,
+            "videoTime": [8,54]
+            ,
+            "chapter": "3. kontrola"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":1326,
+            "y":1101,
+            "videoTime": [11,28],
+            "chapter": "4. kontrola"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":1141,
+            "y":1496,
+            "videoTime": [14,51],
+            "chapter": "5. kontrola"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":1768,
+            "y":1874,
+            "videoTime": [20,12],
+            "chapter": "6. kontrola"
+            
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":2118,
+            "y":1792  ,
+            "videoTime": [23, 5],
+            "chapter": "7. kontrola"
+            
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":2496,
+            "y":1465  ,
+            "videoTime": [27, 14],
+            "chapter": "8. kontrola"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":2658,
+            "y":1522   ,
+            "videoTime": [28, 43],
+            "chapter": "9. kontrola"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":2547,
+            "y":1639   ,
+            "videoTime": [29, 55],
+            "chapter": "10. kontrola"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":2135,
+            "y":1115    ,
+            "videoTime": [34, 44],
+            "chapter": "11. kontrola"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":1390,
+            "y":615    ,
+            "videoTime": [40, 24],
+            "chapter": "12. kontrola"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":1035,
+            "y":644    ,
+            "videoTime": [43, 25],
+            "chapter": "13. kontrola"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":903,
+            "y":542    ,
+            "videoTime": [45, 0],
+            "chapter": "14. kontrola"
+        } ,
+        {
+            "event":"nextCheckpointReached",
+            "x":1131,
+            "y":503    ,
+            "videoTime": [49, 3],
+            "chapter": "15. kontrola"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":1273,
+            "y":443     ,
+            "videoTime": [49,59],
+            "chapter": "16. kontrola"
+        },
+        {
+            "event":"nextCheckpointReached",
+            "x":1290,
+            "y":537  
+                ,
+            "videoTime": [50,23],
+            "chapter": "Cíl"
+        },
+        {
+            "event":"configChange",
+            "gadget":"all",
+            "config":
+            {
+                "visible":true
+            },
+            "videoTime":[1,10]
+        },
+        {
+            "event":"error",
+            "videoTime":[1,39],
+            "videoTimeEnd":[2,46],
+            "comment":"Nevhodně zvolený postup, příliš dlouhá obíhačka"
+        },
+        {
+            "event":"error",
+            "videoTime":[10,17],
+            "videoTimeEnd":[11,0 ],
+            "comment":"Zbytečné váhání, Zmátnul mě průsek, kterého sem si nevšimnul v mapě",
+            "chapter":"chyba"
+        },
+        {
+            "event":"error",
+            "videoTime":[13,42],
+            "videoTimeEnd":[13,55 ],
+            "comment":"Zbytečné váhání, ztráta koncentrace a mapová nejistota",
+            "chapter":"chyba"
+        },
+        {
+            "event":"error",
+            "videoTime":[14,35],
+            "videoTimeEnd":[14,45 ],
+            "comment":"Váhání v dohledávce, na dohled od kontroly",
+            "chapter":"chyba"
+        }
+        ,
+        {
+            "event":"error",
+            "videoTime":[46,58],
+            "videoTimeEnd":[48,25 ],
+            "comment":"Únava, ztráta koncentrace a kontaktu s mapu, našel sem se až u sběrky",
+            "chapter":"chyba"
+            
+        }
+        ,
+        {
+            "event":"comment",
+            "videoTime":[47,50],
+            "videoTimeEnd":[48,10 ],
+            "comment":"Tak už vím kde sem ..."
+        } ,
+        {
+            "event":"comment",
+            "videoTime":[48,40],
+            "videoTimeEnd":[49,0 ],
+            "comment":"Kde ta kontrola je ?"
+        },
+        {
+            "event":"comment",
+            "videoTime":[49,2 ],
+            "videoTimeEnd":[49,10 ],
+            "comment":"Sláva, kde je sběrka už vím ;)"
+        }
+
+
+    ],
+    "track":
+    {
+        "file":"tracklog.gpx",
+        "deltaSecs":15
+    },
+    "template":
+    {
+        "framerate": 1,
+        "videoFormat":
+        {
+            "fps":25,
+            "width":1920,
+            "height":1080
+        },
+        "gadgets":
+        [
+            {
+                "type":"ActualPositionMap",
+                
+                "box":
+                {
+                    "left":1500,
+                    "top":600,
+                    "width":400,
+                    "height":400
+                }
+            },
+            {
+                "type":"PathToNextCheckpoint",
+                "box":
+                {
+                    "left":10,
+                    "top":500,
+                    "width":300,
+                    "height":570
+                },
+                "listenEvents": ["nextCheckpointReached"]
+            },            
+            {
+                "type":"PlotComments",
+                "box":
+                {
+                    "left":10,
+                    "top":10,
+                    "width":1000,
+                    "height":480
+                },
+                "listenEvents": ["error","comment"],
+                "eventConfig":
+                {
+                    "error":
+                    {
+                         "padding":10,
+                        "contextConfig":
+                        {
+                            "font":"30pt Arial",
+                            "fillStyle":"red"
+                        },
+                        "box":{
+                          
+                            "contextConfig":
+                            {                                
+                                "fillStyle":"rgba(0,0,0,0.8)"
+                            }
+                        }
+                    },
+                    "comment":
+                    {
+                         "padding":10,
+                        "contextConfig":
+                        {
+                            "font":"30pt Arial",
+                            "fillStyle":"white"
+                        },
+                        "box":{
+                          
+                            "contextConfig":
+                            {                                
+                                "fillStyle":"rgba(0,0,0,0.8)"
+                            }
+                        }
+                    }
+                }
+            },                      
+            {
+                "type":"PlotComments",
+                "box":
+                {
+                    "left":10,
+                    "top":10,
+                    "width":1000,
+                    "height":100
+                },
+                "listenEvents": ["title"],
+                "eventConfig":
+                {
+                    "title":
+                    {
+                        "padding":20,
+                        "contextConfig":
+                        {
+                            "font":"50pt Arial",
+                            "fillStyle":"white"
+                        },
+                        "box":{
+                          
+                            "contextConfig":
+                            {                                
+                                "fillStyle":"rgba(0,0,0,0.7)"
+                            }
+                        }
+                    }
+                }
             }
         ]
     }

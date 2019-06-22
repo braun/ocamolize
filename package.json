@@ -4,12 +4,19 @@
   "description": "Creation of head cam video for orienteering",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "render":"ffmpeg -i a.mp4 -i metadata.txt  -framerate 1  -i \"http://127.0.0.1:3000/image/frame_%3d.png\" -filter_complex \"[0:v][2:v] overlay=25:25\" -map_metadata 1 -t 50:30 -c:v libx264 -pix_fmt yuv420p -c:a copy pokmap.mp4"
   },
   "keywords": [
     "ORIENTEERING",
     "HEADCAM"
   ],
   "author": "Stanislav Kunt",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.5.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "sharp": "^0.22.1",
+    "xml2js": "^0.4.19"
+  }
 }
